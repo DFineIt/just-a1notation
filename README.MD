@@ -36,13 +36,13 @@ You can find the library on [Maven Central](https://central.sonatype.com/artifac
 <dependency>
     <groupId>cloud.fine-it</groupId>
     <artifactId>just-a1notation</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 </dependency>
 ```
 
 ### Gradle
 ```kotlin
-implementation("cloud.fine-it:just-a1notation:1.0.2")
+implementation("cloud.fine-it:just-a1notation:1.0.3")
 ```
 
 ## Usage

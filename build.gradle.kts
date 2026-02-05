@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "cloud.fine-it"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -13,6 +13,10 @@ repositories {
 
 signing {
     useGpgCmd()
+}
+
+tasks.withType<JavaCompile>().configureEach {
+    options.release.set(11)
 }
 
 mavenPublishing {

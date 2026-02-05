@@ -27,6 +27,24 @@ Tip:
 
 - Where possible, use distinct names for objects in your spreadsheets. For example, A1 (without quotes) refers to cell A1 in the first visible sheet. 'A1' refers to a sheet with the name A1. Similarly, Sheet1 refers to a sheet with the name Sheet1. However, if there's a named range titled "Sheet1", then Sheet1 refers to the named range and 'Sheet1' refers to the sheet.
 
+## Installation
+
+You can find the library on [Maven Central](https://central.sonatype.com/artifact/cloud.fine-it/just-a1notation).
+
+### Maven
+```xml
+<dependency>
+    <groupId>cloud.fine-it</groupId>
+    <artifactId>just-a1notation</artifactId>
+    <version>1.0.2</version>
+</dependency>
+```
+
+### Gradle
+```kotlin
+implementation("cloud.fine-it:just-a1notation:1.0.2")
+```
+
 ## Usage
 
 ### Instantiation

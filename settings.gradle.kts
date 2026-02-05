@@ -1,0 +1,1 @@
+rootProject.name = "Just-A1Notation"

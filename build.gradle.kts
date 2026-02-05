@@ -2,7 +2,7 @@ plugins {
     id("java")
 }
 
-group = "cloud.fineit"
+group = "cloud.fine-it"
 version = "1.0"
 
 repositories {
